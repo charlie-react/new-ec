@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-size: 0.875rem;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.fa-solid {
+  color: purple;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+nav img {
+  background-color: purple;
+  width: 2.32rem;
+  border-radius: 20px 0 20px 20px;
+  margin-right: 0.5rem;
+}
+ul a {
+  text-decoration: none;
+  margin: 0 1rem;
+  color: black;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem !important;
+}
+button {
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(95, 50, 137);
+  color: white;
+  border: none;
+  width: 8rem;
+}
+button img {
+  width: 0.47rem;
+  padding-bottom: -10px;
+}
+/* .hero-section{
+    margin-top: 00px;
+} */
+
+.hero-text {
+  /* width: 280px; */
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  align-self: flex-start;
+}
+.hero-text h1 {
+  font-size: 3.2rem;
+}
+.hero-text p {
+  margin-top: -15px;
+}
+.hero-img {
+  display: flex;
+  flex-basis: 59%;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 500px;
+  align-self: flex-end;
+  border-radius: 5px;
+  margin-left: 2rem;
+}
+span {
+  font-size: 2.3rem;
+  font-weight: 800;
+  background: rgb(95, 50, 137);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 0 4px;
+  border-radius: 7px;
+}
+.words {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 1.8rem;
+}
+.img-con {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 2.5rem 0; */
+}
+.first {
+  background-color: orange;
+  border-radius: 20px;
+}
+.second {
+  background-color: aqua;
+  border-radius: 20px;
+}
+.third {
+  background-color: rgb(206, 95, 95);
+  border-radius: 20px;
+}
+.content {
+  background-color: rgba(225, 216, 216, 0.523);
+  height: 100%;
+}
+
+.first-img {
+  background-color: rgb(203, 77, 203) !important;
+}
+.first-img i{
+  color: white;
+}
+.first-img h3{
+  color: rgb(37, 30, 30);
+}
+.group {
+  background-color: white;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 3rem 0;
+}
